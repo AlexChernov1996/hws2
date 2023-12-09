@@ -1,0 +1,29 @@
+.sendForm {
+display: flex;
+    justify-content: center;
+}
+
+.textarea {
+    resize: none;
+    min-width: 900px;
+    min-height: 40px;
+    border-radius: 20px;
+    background: #F5F7FB;
+    place-content: center;
+}
+textarea::placeholder{
+    padding: 10px 0 10px 10px;
+}
+.button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background: #06C;
+}
+
+.button:hover {
+ cursor: pointer;
+}
+.button:active {
+
+}
